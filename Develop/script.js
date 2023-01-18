@@ -21,3 +21,17 @@ $(function () {
   //
   // TODO: Add code to display the current date in the header of the page.
 });
+
+var currentDate = new Date();
+  var date = currentDate.getDate();
+  var month = currentDate.getMonth() + 1; 
+  var year = currentDate.getFullYear();
+  var hours = currentDate.getHours();
+  var minutes = currentDate.getMinutes();
+  var seconds = currentDate.getSeconds();
+  document.write ("<header>" + date + "/" + month + "/" + year + " " + hours + ":" + minutes + ":" + seconds + "</header>");
+
+
+ 
+
+
